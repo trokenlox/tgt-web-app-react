@@ -9,14 +9,12 @@ function App() {
 
     }, [])
 
-        const onClose = () => {
-            tg.close()
-        }
+
 
   return (
     <div className="App">
       mq
-        <button onClick={onClose}>Закрыть</button>
+
     </div>
   );
 }
